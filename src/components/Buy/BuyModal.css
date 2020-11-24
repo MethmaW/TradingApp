@@ -1,0 +1,71 @@
+.bla {
+  margin-top: 5%;
+}
+
+.bmodal-head,
+.modal-body,
+.modal-footer {
+  background-color: #181e2d;
+  border: none;
+}
+
+.bmodal-head {
+  border-top: 1px solid #77bf72;
+  border-left: 1px solid #77bf72;
+  border-right: 1px solid #77bf72;
+  color: #77bf72;
+}
+
+.bmodal-body {
+  border-left: 1px solid #77bf72;
+  border-right: 1px solid #77bf72;
+}
+
+.bmodal-footer {
+  border-bottom: 1px solid #77bf72;
+  border-left: 1px solid #77bf72;
+  border-right: 1px solid #77bf72;
+}
+
+.bmodal-title {
+  margin-left: 35%;
+}
+
+.bmodal-body h5,
+p {
+  color: #e5e5e5;
+}
+
+.bmodal-body h5 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.bmodal-body h6 {
+  color: #a1a1a1;
+}
+
+.bmodal-row-one {
+  padding-left: 5%;
+  margin-top: 15%;
+}
+
+.bmodal-row-two {
+  padding-left: 5%;
+  margin-top: 10%;
+}
+
+.bmodal-ok {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.bmodal-input {
+  color: #e5e5e5;
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
+}
+
+.close {
+  color: #ebebeb;
+}

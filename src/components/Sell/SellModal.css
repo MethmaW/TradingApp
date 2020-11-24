@@ -1,0 +1,67 @@
+.smodal-head,
+.smodal-body,
+.smodal-footer {
+  background-color: #181e2d;
+  border: none;
+}
+
+.smodal-head {
+  border-top: 1px solid #d35336;
+  border-left: 1px solid #d35336;
+  border-right: 1px solid #d35336;
+  color: #d35336;
+}
+
+.smodal-body {
+  border-left: 1px solid #d35336;
+  border-right: 1px solid #d35336;
+}
+
+.smodal-footer {
+  border-bottom: 1px solid #d35336;
+  border-left: 1px solid #d35336;
+  border-right: 1px solid #d35336;
+}
+
+.smodal-title {
+  margin-left: 35%;
+}
+
+.smodal-body h5,
+p {
+  color: #e5e5e5;
+}
+
+.smodal-body h5 {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.smodal-body h6 {
+  color: #a1a1a1;
+}
+
+.smodal-row-one {
+  padding-left: 5%;
+  margin-top: 15%;
+}
+
+.smodal-row-two {
+  padding-left: 5%;
+  margin-top: 10%;
+}
+
+.smodal-ok {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.smodal-input {
+  color: #e5e5e5;
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
+}
+
+.close {
+  color: #ebebeb;
+}

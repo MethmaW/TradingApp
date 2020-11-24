@@ -1,0 +1,16 @@
+.balance-box {
+  border: 1px rgb(177, 177, 177) solid;
+  width: 30%;
+  padding: 0.2% 2% 0 2%;
+  margin: 5% 35% 5% 35%;
+  border-radius: 5px;
+  color: #77bf72;
+  font-family: "Montserrat", sans-serif;
+}
+
+.balance-box h4 {
+  margin-top: auto;
+  text-align: center;
+  font-weight: 300 !important;
+  font-size: 25px;
+}

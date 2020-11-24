@@ -1,0 +1,23 @@
+.dashboard-table {
+  margin: 0% 5% 0 5%;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+tbody th,
+tr {
+  color: #cccccc;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+thead th,
+tr {
+  font-weight: lighter;
+}

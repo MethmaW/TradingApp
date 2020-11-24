@@ -1,0 +1,12 @@
+.navbar {
+  background-color: #181e2d;
+  font-family: "Roboto", sans-serif;
+  height: 8vh;
+}
+
+.nav-head {
+  margin-top: 0.5%;
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+}
