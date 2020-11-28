@@ -25,6 +25,7 @@
 
 .smodal-title {
   margin-left: 35%;
+  letter-spacing: 3px;
 }
 
 .smodal-body h5,
@@ -51,11 +52,6 @@ p {
   margin-top: 10%;
 }
 
-.smodal-ok {
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
 .smodal-input {
   color: #e5e5e5;
   background-color: transparent;
@@ -64,4 +60,15 @@ p {
 
 .close {
   color: #ebebeb;
+}
+
+.smodalOk:hover {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.smodalOk {
+  letter-spacing: 3px;
+  background-color: rgb(53, 55, 97);
+  border: 1px solid black;
 }

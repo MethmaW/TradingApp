@@ -29,6 +29,7 @@
 
 .bmodal-title {
   margin-left: 35%;
+  letter-spacing: 3px;
 }
 
 .bmodal-body h5,
@@ -48,22 +49,6 @@ p {
 .bmodal-row-one {
   padding-left: 5%;
   margin-top: 15%;
-}
-
-.bmodal-row-two {
-  padding-left: 5%;
-  margin-top: 10%;
-}
-
-.bmodal-ok {
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-.bmodal-input {
-  color: #e5e5e5;
-  background-color: transparent;
-  border: 1px solid #e5e5e5;
 }
 
 .close {

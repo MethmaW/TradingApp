@@ -1,0 +1,54 @@
+.quan {
+  padding-left: 5%;
+  margin-top: 10%;
+}
+
+.quan label {
+  color: #a1a1a1;
+  font-weight: 500;
+}
+
+.comQuan {
+  color: #e5e5e5;
+  background-color: transparent;
+
+  border: 1px solid #e5e5e5;
+}
+
+.quan Button {
+  margin-top: 20%;
+}
+
+.modalType {
+  display: none;
+}
+
+.latestVal,
+.comName,
+.comTick {
+  color: #e5e5e5;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.latestValBox {
+  width: 90%;
+  margin: -4% 5% 0 15%;
+}
+
+.latestValBox label {
+  font-weight: 400;
+  color: white;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+}
+
+.latestValBox input {
+  font-size: 1.3rem;
+  width: 40%;
+}
+
+.modalRowOne,
+.modalRowTwo {
+  margin-top: 12%;
+}

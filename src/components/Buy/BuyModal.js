@@ -1,59 +1,55 @@
-import React, {useState, setShow} from 'react'
+import React, {useState, setShow, useEffect} from 'react'
 import {Button, Modal, Row, Col} from 'react-bootstrap';
 import ButtonSet from "../Buy/ButtonSet"
+
+import axios from "axios"
+import Quantity from '../Quantity/Quantity';
 import "./BuyModal.css"
 
 
-const BuyModal = () => {
+const BuyModal = (props) => {
 
+    //handeling the modal open & close
     const [show, setShow] = useState(false);
-  
-    const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    const handleClose = () => setShow(false);
+
+    const modalType = "buyModal"
+
+
+   
 
     return (
        
         <>
             
             <ButtonSet fName= {handleShow}/> 
-            
-    
+
+        
+
             <Modal className="bla" show={show} onHide={handleClose}>
 
-            <Modal.Header closeButton className="bmodal-head">
-                <Modal.Title className="bmodal-title"><h4>Buy Stocks</h4></Modal.Title>
-            </Modal.Header>
+                <Modal.Header closeButton className="bmodal-head">
+                    <Modal.Title className="bmodal-title"><h4>Buy Stocks</h4></Modal.Title>
+                </Modal.Header>
 
-            <Modal.Body className="bmodal-body">
-                <h5>Latest Value: USD {1000}</h5>
-                <Row className="bmodal-row-one">
-                    <Col>
-                        <h6>Company Name:</h6>
-                        <p>{"FaceBook"}</p>
-                    </Col>
-      
-                    <Col>
-                        <h6>Ticker:</h6>
-                        <p>{"FBK"}</p>
-                    </Col>
-                </Row>
+                <Modal.Body className="bmodal-body">
+                    <Quantity qcomValue={props.compValue} qcomName={props.compName} qcomTicker={props.compTicker} qmodaltype={modalType} qmodalQuantity={props.compQuantity}/>
+                </Modal.Body>
 
-                <Row className="bmodal-row-two">
-                    <Col>
-                        <h6>Quantity:</h6>
-                        <input className="bmodal-input" name="buy-quanity" type="number"></input>
-                    </Col>
-                </Row>
-
-            </Modal.Body>
-
-            <Modal.Footer className="bmodal-footer">
-                <Button variant="success" onClick={handleClose} className="bmodal-ok">
-                OK
-                </Button>
-            </Modal.Footer>
+                <Modal.Footer className="bmodal-footer">
+                    
+                </Modal.Footer>
 
             </Modal>
+
+
+
+
+           
+            
+    
+            
         </>
   
     )
